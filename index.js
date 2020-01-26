@@ -4,7 +4,7 @@
 function mapToNegativize(array){
   let newArray = [];
   for (let element of array){
-    
+    newArray.push(-Math.abs(element));
   }
   
   return newArray;
