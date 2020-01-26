@@ -5,3 +5,5 @@ function mapToNegativize(){}
 
 function mapToNoChange(){}
 
+function mapToDouble(){}
+
