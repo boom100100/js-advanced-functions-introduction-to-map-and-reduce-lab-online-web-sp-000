@@ -11,7 +11,7 @@ function mapToNegativize(array){
   return newArray;
 }
 
-function mapToNoChange(){}
+function mapToNoChange(array){ return array;}
 
 function mapToDouble(){}
 
