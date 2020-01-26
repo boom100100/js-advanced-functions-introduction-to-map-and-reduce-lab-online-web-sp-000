@@ -13,7 +13,15 @@ function mapToNegativize(array){
 
 function mapToNoChange(array){ return array;}
 
-function mapToDouble(){}
+function mapToDouble(array){
+  let newArray = [];
+  for (let element of array){
+    newArray.push(element * 2));
+    
+  }
+  
+  return newArray;
+}
 
 function mapToSquare(){}
 
