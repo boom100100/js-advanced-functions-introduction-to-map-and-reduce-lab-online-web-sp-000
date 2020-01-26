@@ -14,5 +14,5 @@ function mapToSquare(){}
 function reduceToTotal(){}
 function reduceToAllTrue(){}
 function reduceToAnyTrue(){}
-function(){}
+
 
