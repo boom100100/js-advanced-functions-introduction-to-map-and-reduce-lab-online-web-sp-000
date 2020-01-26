@@ -11,3 +11,8 @@ function mapToSquare(){}
 
 
 //reduce-like
+function reduceToTotal(){}
+function(){}
+function(){}
+function(){}
+
