@@ -1,7 +1,14 @@
 // Your code here
 
 //map-like
-function mapToNegativize(){}
+function mapToNegativize(array){
+  let newArray = [];
+  for (let element of array){
+    
+  }
+  
+  return newArray;
+}
 
 function mapToNoChange(){}
 
