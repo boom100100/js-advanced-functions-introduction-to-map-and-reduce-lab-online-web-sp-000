@@ -12,7 +12,7 @@ function mapToSquare(){}
 
 //reduce-like
 function reduceToTotal(){}
-function(){}
+function reduceToAllTrue(){}
 function(){}
 function(){}
 
