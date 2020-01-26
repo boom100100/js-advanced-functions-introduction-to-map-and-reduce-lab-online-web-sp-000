@@ -4,7 +4,7 @@
 function mapToNegativize(array){
   let newArray = [];
   for (let element of array){
-    i - (i * 2)
+    newArray.push(element - (element * 2));
     //wrong. assuming test is correct, solution provided above is better. newArray.push(-Math.abs(element));
   }
   
