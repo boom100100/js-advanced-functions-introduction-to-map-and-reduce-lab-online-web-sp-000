@@ -33,7 +33,15 @@ function mapToSquare(array){
 
 
 //reduce-like
-function reduceToTotal(){}
+function reduceToTotal(array){
+  let total = 0;
+  for (let element of array){
+    total = total + element;
+  }
+  
+  return newArray;
+}
+
 function reduceToAllTrue(){}
 function reduceToAnyTrue(){}
 
