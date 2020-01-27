@@ -42,7 +42,16 @@ function reduceToTotal(array, total = 0){
   return total;
 }
 
-function reduceToAllTrue(){}
+function reduceToAllTrue(array){
+  for (let element of array){
+    if (element == false){
+      return false;
+    }
+  }
+  
+  return true;
+}
+
 function reduceToAnyTrue(){}
 
 
