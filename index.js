@@ -54,7 +54,7 @@ function reduceToAllTrue(array){
 
 function reduceToAnyTrue(array){
   for (let element of array){
-    if (element == true)
+    if (element == true){
       return true;
     }
   }
