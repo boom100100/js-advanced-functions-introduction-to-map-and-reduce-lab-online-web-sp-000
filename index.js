@@ -39,7 +39,7 @@ function reduceToTotal(array){
     total = total + element;
   }
   
-  return newArray;
+  return total;
 }
 
 function reduceToAllTrue(){}
