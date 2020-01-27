@@ -33,8 +33,8 @@ function mapToSquare(array){
 
 
 //reduce-like
-function reduceToTotal(array){
-  let total = 0;
+function reduceToTotal(total = 0){
+  
   for (let element of array){
     total = total + element;
   }
