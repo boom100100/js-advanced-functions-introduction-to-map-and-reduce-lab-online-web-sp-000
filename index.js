@@ -52,6 +52,14 @@ function reduceToAllTrue(array){
   return true;
 }
 
-function reduceToAnyTrue(){}
+function reduceToAnyTrue(array){
+  for (let element of array){
+    if (element == true)
+      return true;
+    }
+  }
+  
+  return false;
+}
 
 
