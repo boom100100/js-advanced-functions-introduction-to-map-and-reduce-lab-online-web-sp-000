@@ -17,13 +17,19 @@ function mapToDouble(array){
   let newArray = [];
   for (let element of array){
     newArray.push(element * 2);
-    
   }
   
   return newArray;
 }
 
-function mapToSquare(){}
+function mapToSquare(array){
+  let newArray = [];
+  for (let element of array){
+    newArray.push(element * element);
+  }
+  
+  return newArray;
+}
 
 
 //reduce-like
